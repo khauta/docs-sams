@@ -15,45 +15,38 @@ The response of this request is documented as a JSON schema:
 
 ```json
 {
-  "type": "object",
-  "properties": {
-    "agents": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "[agentId](https://x.com/i/grok?text=agentId)": {
-            "type": "string",
-            "description": "The unique identifier for the agent."
-          },
-          "[name](https://x.com/i/grok?text=name)": {
-            "type": "string",
-            "description": "The name of the agent."
-          },
-          "[surname](https://x.com/i/grok?text=surname)": {
-            "type": "string",
-            "description": "The surname of the agent."
-          },
-          "[phoneNumber](https://x.com/i/grok?text=phoneNumber)": {
-            "type": "string",
-            "description": "The phone number of the agent."
-          },
-          "[district](https://x.com/i/grok?text=district)": {
-            "type": "string",
-            "description": "The district where the agent operates."
-          },
-          "[status](https://x.com/i/grok?text=status)": {
-            "type": "string",
-            "description": "The status of the agent (e.g., 'active', 'not active')."
-          },
-          "[lastActiveDate](https://x.com/i/grok?text=lastActiveDate)": {
-            "type": "string",
-            "format": "date-time",
-            "description": "The last date when the agent was active."
-          }
-        },
-        "required": ["agentId", "name", "surname", "phoneNumber", "district", "status", "lastActiveDate"]
-      }
+  [
+    {
+        "name": "Seth",
+        "surname": "Matete",
+        "id_number": "071255556665",
+        "gender": "Male",
+        "cell": "58445333",
+        "district": "N\/A",
+        "physical_address": "Ha foso",
+        "date": "2023-07-22 20:55:37",
+        "limit": "1500"
+    },
+    {
+        "name": "Seth",
+        "surname": "Matete",
+        "id_number": "041255556665",
+        "gender": "Male",
+        "cell": "58454578",
+        "district": "N\/A",
+        "physical_address": "Ha foso",
+        "date": "2023-07-24 12:12:37",
+        "limit": "100"
+    },
+    {
+        "name": "larry",
+        "surname": "simetsi",
+        "id_number": "654852144545",
+        "gender": "Male",
+        "cell": "45452147",
+        "district": "N\/A",
+        "physical_address": "kk",
+        "date": "2023-07-28 08:50:54",
+        "limit": "1500"
     }
-  }
 }
