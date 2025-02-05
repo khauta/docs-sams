@@ -21,17 +21,25 @@
   **Example Response**:
 
   ```json
-  {
-      "districts": [
-          {
-              "districtId": "123",
-              "districtName": "District A",
-              "region": "Region 1"
-          },
-          {
-              "districtId": "456",
-              "districtName": "District B",
-              "region": "Region 2"
-          }
-      ]
-  }
+  [
+    {
+        "id": 1,
+        "region": null,
+        "name": "Berea",
+        "date": "2020-07-03 00:00:00",
+        "pub": 1,
+        "del": 1,
+        "agent_count": 97,
+        "personal_user_count": 50
+    },
+    {
+        "id": 10,
+        "region": null,
+        "name": "Thaba Tseka",
+        "date": null,
+        "pub": 1,
+        "del": 1,
+        "agent_count": 0,
+        "personal_user_count": 0
+    }
+]
